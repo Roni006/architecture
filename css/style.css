@@ -1,0 +1,142 @@
+/*
+Author Name : Anik Islam
+Template: Architecture
+version: 1.0.0
+*/
+
+/* ESSENTIAL SET UP START */
+
+/* ROOT LAYOUTS  */
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --global-font: "Work Sans", sans-serif;
+    --header-bg: #fff4e7; 
+    --menu-color: #424242;
+    --logo-color: #131313;
+    --bar-color: #FF900E;
+    
+}
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--global-font);
+}
+
+.container{
+    max-width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 65px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 18;
+}
+h6{
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+/* ESSENTIAL SET UP END */
+
+
+/*HEADER SECTION START */
+.header-section{
+    background-color: var(--header-bg);
+}
+.logo a{
+    text-decoration: none;
+    color: var(--logo-color);
+}
+.header-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+}
+.navmenus{
+    display: flex; 
+
+}
+.navmenus li{
+    list-style: none; 
+}
+.navmenus a{ 
+    text-decoration: none; 
+    font-weight: 500;
+    color: var(--menu-color); 
+    font-size: 18px;
+    padding: 0 15px;
+}
+.menus{
+    display: flex;
+    align-items: center;
+}
+.btns i{
+    background-color: var(--bar-color);
+    padding: 10px 15px;
+    font-size: 22px;
+    color: var(--menu-color);
+    border-radius: 5px;
+    display: none;
+    visibility: hidden;
+}
+/*HEADER SECTION END */
+
+
+/*HERO SECTION START */
+.hero-section{
+    padding: 110px 0 90px 0;
+    background-color: var(--header-bg);
+}
+/* .hero-top{
+
+} */
+.hero-title h1{
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1em ;
+}
+.hero-details p{
+    text-align: center;
+    padding: 0 290px;
+}
+ 
+.hero-btn a{
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--bar-color); 
+    font-size: 18px; 
+    padding: 20px 25px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 650px;
+}
+.hero-bottom img{
+    margin-top: 50px;
+    width: 100%;
+}
+/*HERO SECTION END */
+
+/* SECTION START */
+/* SECTION END */

@@ -1,0 +1,43 @@
+@media (max-width: 1130px){
+    .hero-details p{
+        padding: 0 120px;
+    }
+}
+@media (max-width: 930px){
+    .navmenus{
+        display: none;
+    }
+    .btns i{
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 850px){
+    .hero-title h1{
+        font-size: 45px;
+    }
+
+}
+
+
+@media (max-width: 630px){
+    .hero-details p{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 468px){
+    .hero-details p{
+        padding: 0 20px; 
+    }
+    .hero-title h1{
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 430px){
+    .logo a h2{
+        font-size: 35px;
+    }
+}
