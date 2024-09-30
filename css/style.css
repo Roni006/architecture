@@ -15,6 +15,7 @@ version: 1.0.0
     --menu-color: #424242;
     --logo-color: #131313;
     --bar-color: #FF900E;
+    --light-gray: #727272;
     
 }
 *{
@@ -24,6 +25,7 @@ version: 1.0.0
 }
 body{
     font-family: var(--global-font);
+    margin-bottom: 300px;
 }
 
 .container{
@@ -140,40 +142,48 @@ h1,h2,h3,h4,h5,h6{
 /*HERO SECTION END */
 
 /*PHOTO FEATURES SECTION START */
-.photo-features{
+.photo-feature{
     padding: 90px 0;
+    overflow: hidden;
 }
-.pfeature-row{
+.photo-row{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 75px;
+    justify-content: center;
+    gap: 100px;
 }
-.pf-left{
-    display: flex; 
-    gap: 25px; 
+ 
+.phto-left{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
-.pf-title span{
-    color: var(--bar-color); 
+.photo-title h2 .span1{
+    color: var(--light-gray); 
+    font-weight: 500;
 }
-.pf-details p{
-    margin-top: 20px;
+.photo-title h2 .span3{
+    color: var(--bar-color);
+}
+.photo-title h2 {
+    margin-bottom: 15px;
+}
+.photo-details p{
+    color:var(--light-gray);
     font-size: 18px;
-    color: var(--menu-color);
-    margin-bottom: 30px;
-    width: 605px;
+    margin-bottom: 40px;
+    padding: 0 40px 0 0;
+    text-align: left;
 }
-.pf-btn a{
+.photo-btn a{
+    background-color: var(--bar-color);
     text-decoration: none;
     color: var(--white-color);
-    background-color: var(--bar-color); 
-    font-size: 18px; 
-    padding: 18px 35px;
-    text-align: center;
-    border-radius: 5px; 
-    display: inline-block; 
+    padding: 20px 25px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
 }
-
 /*PHOTO FEATURES SECTION END */
 
 
