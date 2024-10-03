@@ -319,7 +319,35 @@ h6 {
     border-radius: 5px;
 }
 /*FACTS SECTION END */
-/* SECTION START */
-/* SECTION END */
+
+/*SPONSORS SECTION START */
+.sponsor-section{
+    padding: 90px 0;
+}
+.sp-top {
+    text-align: center;
+    padding: 0 423px;
+}
+.sptitle h2{
+    margin-bottom: 20px;
+}
+.sp-row{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sp-image{
+    /* background-color: #ddd; */
+    padding: 25px 25px;
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.sp-image:hover{
+    opacity: 1;
+    box-shadow: var(--feature-box-hover-shadow);
+}
+/*SPONSORS SECTION END */
 /* SECTION START */
 /* SECTION END */

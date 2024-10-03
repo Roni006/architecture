@@ -16,6 +16,12 @@
     .architect-experience h1{
         font-size: 45px;
     }
+    .sp-top{
+        padding: 0 250px;
+    }
+    .sp-image{
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 930px) {
@@ -49,11 +55,19 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .sp-row{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 850px) {
     .hero-title h1 {
         font-size: 45px;
+    }
+    .sp-top{
+        padding: 0 200px;
     }
 
 }
@@ -62,6 +76,9 @@
 @media (max-width: 730px) {
     .phto-left{
         padding: 0 20px;
+    }
+    .sp-top{
+        padding: 0 150px;
     }
 }
 
@@ -90,6 +107,9 @@
             top: 600px;
             left: 20px;
         }
+        .sp-top{
+            padding: 0 120px;
+        }
 
     }
 
@@ -116,6 +136,9 @@
         }
         .facts-content{
             padding: 0 20px;
+        }
+        .sp-top{
+            padding: 0 100px;
         }
     }
 
@@ -152,6 +175,9 @@
         .feature-section {
             padding-right:30px;
         }
+        .sp-top{
+            padding: 0 50px;
+        }
     }
 
  
@@ -169,6 +195,12 @@
         top: 350px;
         left: 15px;
     }
+    .sptitle h2{
+        font-size: 30px;
+    }
+    .sp-top{
+        padding: 0 40px;
+    }
 }
 
 @media (max-width: 375px){
@@ -182,5 +214,8 @@
     }
     .fact-title h2{
         font-size: 30px;
+    }
+    .sp-top{
+        padding: 0 20px;
     }
 }
