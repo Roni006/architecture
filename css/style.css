@@ -349,5 +349,15 @@ h6 {
     box-shadow: var(--feature-box-hover-shadow);
 }
 /*SPONSORS SECTION END */
-/* SECTION START */
-/* SECTION END */
+
+/*FOOTER SECTION START */
+.footer-section{
+    overflow: hidden;
+}
+.footer-text p{
+    background-color: var(--header-bg);
+    text-align: center;
+    padding: 40px 30px;
+    font-size: 18px;
+}
+/*FOOTER SECTION END */
