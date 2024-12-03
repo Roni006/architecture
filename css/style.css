@@ -18,8 +18,7 @@ version: 1.0.0
     --light-gray: #727272;
     --feature-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     --feature-box-hover-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    ;
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; 
 
 }
 
@@ -30,8 +29,7 @@ version: 1.0.0
 }
 
 body {
-    font-family: var(--global-font);
-    margin-bottom: 300px;
+    font-family: var(--global-font); 
 }
 
 .container {
@@ -272,7 +270,7 @@ h6 {
     background-color: var(--bar-color);
     display: inline-block;
     text-align: center;
-    padding: 30px 25px;
+    padding: 0px 25px;
     border-radius: 5px;
     position: absolute; 
     top: 885px;
